@@ -1,0 +1,8 @@
+1) ID
+2) Date
+3) Environment
+4) Title
+5) Steps
+6) Expected result
+7) Actual result
+8) Attachment
