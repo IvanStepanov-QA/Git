@@ -1,0 +1,8 @@
+1) Name
+2) Ver
+3) Env
+4) Dste
+5) ID
+6) Tests
+7) ER
+
