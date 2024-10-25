@@ -6,31 +6,31 @@
 #### - SQL
 #### - Charles
 #### - Mobile testing 
-git branch Postman
-git branch Jmeter
-git branch CheckLists
-git branch BugReports
-git branch SQL
-git branch Charles
-git branch MobileTesting
+    git branch Postman
+    git branch Jmeter
+    git branch CheckLists
+    git branch BugReports
+    git branch SQL
+    git branch Charles
+    git branch MobileTesting
 #### 2. Запушить все ветки на внешний репозиторий
-git push -u origin --all
+    git push -u origin --all
 #### 3. В ветке Bug Reports сделать текстовый документ со структурой баг репорта
-git checkout BugReports
-vim Bug_Reports.txt
-1) ID
-2) Date
-3) Environment
-4) Title
-5) Steps
-6) Expected result
-7) Actual result
-8) Attachment
+    git checkout BugReports
+    vim Bug_Reports.txt
+    1) ID
+    2) Date
+    3) Environment
+    4) Title
+    5) Steps
+    6) Expected result
+    7) Actual result
+    8) Attachment
 
 #### 4. Запушить структуру багрепорта на внешний репозиторий
-git add Bug_Reports.txt
-git commit -m "Add Bug Report"
-git push
+    git add Bug_Reports.txt
+    git commit -m "Add Bug Report"
+    git push
 #### 5. Вмержить ветку Bug Reports в Main
 git checkout main
 git merge BugReports
@@ -51,12 +51,12 @@ git add Checklist.txt
 git commit -m "Add Check list"
 git push
 #### 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
-- перейти на страницу https://github.com/Liudmila-Papko/Skills
-- нажать кнопку Compare & pull request
-- Add a title
-- Нажать Create pull request
-- Нажать Merge pull request
-- Нажать Confirm merge
+--> https://github.com/IvanStepanov-QA/Git
+--> Compare & pull request
+Add a title
+--> Create pull request
+--> Merge pull request
+--> Confirm merge
 #### 10. Синхронизировать Внешнюю и Локальную ветки Main (находимся в main ветке)
 git pull
 
